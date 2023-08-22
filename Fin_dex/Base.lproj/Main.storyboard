@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cnS-et-LY1">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Trade-->
+        <scene sceneID="ZSP-B0-QxC">
+            <objects>
+                <viewController id="YVZ-ub-okg" customClass="TradeViewController" customModule="Fin_dex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZFI-PF-JFH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="aAA-XG-r3A"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Trade" image="tradeGray" selectedImage="tradeDark" id="B0I-8w-Fk7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qPJ-FC-XsC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1483" y="165"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="rh2-Yj-R4B">
+            <objects>
+                <viewController id="WgR-np-Qb5" customClass="ProfileViewController" customModule="Fin_dex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q9H-Ae-qzW">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="dKN-qz-uv1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="profile" id="5Mc-Ep-62Z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZJC-wh-Qng" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-421" y="165"/>
+        </scene>
+        <!--Portfolio-->
+        <scene sceneID="ouI-Kn-l44">
+            <objects>
+                <viewController id="xHU-YC-8L5" customClass="PortfolioViewController" customModule="Fin_dex" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EIG-5o-baj">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Portfolio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0EQ-J2-Ire">
+                                <rect key="frame" x="32.000000000000007" y="91" width="106.66666666666669" height="24"/>
+                                <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UY6-ca-16Q">
+                                <rect key="frame" x="337" y="91" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="7HI-Ym-4Gg"/>
+                                    <constraint firstAttribute="width" secondItem="UY6-ca-16Q" secondAttribute="height" multiplier="1:1" id="OQw-hw-fnq"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="settings"/>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="QQe-iW-B7t">
+                                <rect key="frame" x="16" y="147" width="361" height="176"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="176" id="P2C-1F-4jn"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oO8-v9-MpA">
+                                    <size key="itemSize" width="305" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="q9J-Dd-gkk">
+                                <rect key="frame" x="32" y="355" width="329" height="24"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charts" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTn-5f-Wjj">
+                                        <rect key="frame" x="0.0" y="0.0" width="52.333333333333336" height="24"/>
+                                        <fontDescription key="fontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="17"/>
+                                        <color key="textColor" red="0.72549019607843135" green="0.75686274509803919" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="See All" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xN6-6C-3fP">
+                                        <rect key="frame" x="279.66666666666669" y="0.0" width="49.333333333333314" height="24"/>
+                                        <fontDescription key="fontDescription" name="PingFangTC-Medium" family="PingFang TC" pointSize="15"/>
+                                        <color key="textColor" red="0.93333333333333335" green="0.40784313725490196" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="lSn-ZM-urt">
+                                <rect key="frame" x="0.0" y="379" width="393" height="390"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NFZ-sp-AoX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NFZ-sp-AoX" firstAttribute="trailing" secondItem="q9J-Dd-gkk" secondAttribute="trailing" constant="32" id="9UP-oc-SBa"/>
+                            <constraint firstItem="UY6-ca-16Q" firstAttribute="centerY" secondItem="0EQ-J2-Ire" secondAttribute="centerY" id="9rS-0g-evV"/>
+                            <constraint firstItem="NFZ-sp-AoX" firstAttribute="trailing" secondItem="UY6-ca-16Q" secondAttribute="trailing" constant="32" id="G1s-bW-S14"/>
+                            <constraint firstItem="q9J-Dd-gkk" firstAttribute="top" secondItem="QQe-iW-B7t" secondAttribute="bottom" constant="32" id="NL6-3o-rdQ"/>
+                            <constraint firstItem="lSn-ZM-urt" firstAttribute="top" secondItem="q9J-Dd-gkk" secondAttribute="bottom" id="NnJ-DO-e0p"/>
+                            <constraint firstItem="UY6-ca-16Q" firstAttribute="top" secondItem="NFZ-sp-AoX" secondAttribute="top" constant="32" id="Ozl-tA-Ds7"/>
+                            <constraint firstItem="QQe-iW-B7t" firstAttribute="top" secondItem="0EQ-J2-Ire" secondAttribute="bottom" constant="32" id="P10-6O-EK1"/>
+                            <constraint firstItem="q9J-Dd-gkk" firstAttribute="leading" secondItem="NFZ-sp-AoX" secondAttribute="leading" constant="32" id="QQQ-vG-Kzw"/>
+                            <constraint firstItem="0EQ-J2-Ire" firstAttribute="leading" secondItem="NFZ-sp-AoX" secondAttribute="leading" constant="32" id="YKh-Bm-ITN"/>
+                            <constraint firstItem="NFZ-sp-AoX" firstAttribute="trailing" secondItem="lSn-ZM-urt" secondAttribute="trailing" id="cFz-yk-vch"/>
+                            <constraint firstItem="NFZ-sp-AoX" firstAttribute="trailing" secondItem="QQe-iW-B7t" secondAttribute="trailing" constant="16" id="g1i-lO-CNk"/>
+                            <constraint firstItem="NFZ-sp-AoX" firstAttribute="bottom" secondItem="lSn-ZM-urt" secondAttribute="bottom" id="quf-uv-gks"/>
+                            <constraint firstItem="0EQ-J2-Ire" firstAttribute="top" secondItem="NFZ-sp-AoX" secondAttribute="top" constant="32" id="r2g-qM-HWm"/>
+                            <constraint firstItem="QQe-iW-B7t" firstAttribute="leading" secondItem="NFZ-sp-AoX" secondAttribute="leading" constant="16" id="sIT-S1-GcR"/>
+                            <constraint firstItem="QQe-iW-B7t" firstAttribute="centerX" secondItem="NFZ-sp-AoX" secondAttribute="centerX" id="tfs-4T-7dA"/>
+                            <constraint firstItem="lSn-ZM-urt" firstAttribute="leading" secondItem="NFZ-sp-AoX" secondAttribute="leading" id="zoP-Zc-Gqy"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Portfolio" image="portfolioGray" selectedImage="portfolioDark" id="XiG-KE-uQA"/>
+                    <connections>
+                        <outlet property="AccountsCollectionViews" destination="QQe-iW-B7t" id="c7U-eQ-agC"/>
+                        <outlet property="accountsCollectionViews" destination="QQe-iW-B7t" id="Nca-I7-TIJ"/>
+                        <outlet property="currencyTableView" destination="lSn-ZM-urt" id="8Pz-cN-MEA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zBQ-uo-PJM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2427" y="166"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="uj1-Wc-ytN">
+            <objects>
+                <tabBarController id="cnS-et-LY1" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5aW-ya-oxD">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="xHU-YC-8L5" kind="relationship" relationship="viewControllers" id="Kgu-Yb-Bzu"/>
+                        <segue destination="YVZ-ub-okg" kind="relationship" relationship="viewControllers" id="qsp-th-md0"/>
+                        <segue destination="WgR-np-Qb5" kind="relationship" relationship="viewControllers" id="wwL-j4-rtg"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vnf-hU-Dh3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1688" y="-590"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="portfolioDark" width="24" height="24"/>
+        <image name="portfolioGray" width="24" height="24"/>
+        <image name="profile" width="24" height="24"/>
+        <image name="settings" width="24" height="24"/>
+        <image name="tradeDark" width="24" height="24"/>
+        <image name="tradeGray" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
