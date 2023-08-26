@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491DF7B124382D249B7590E7 /* Pods_Fin_dex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F982F72B5951EA13D195FFF /* Pods_Fin_dex.framework */; };
 		91233AD72A87B79500F39F44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91233AD62A87B79500F39F44 /* AppDelegate.swift */; };
 		91233AD92A87B79500F39F44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91233AD82A87B79500F39F44 /* SceneDelegate.swift */; };
 		91233ADE2A87B79500F39F44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91233ADC2A87B79500F39F44 /* Main.storyboard */; };
@@ -21,9 +22,33 @@
 		91233AFF2A87E36400F39F44 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91233AFE2A87E36400F39F44 /* Extensions.swift */; };
 		91233B022A88397E00F39F44 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91233B002A88397E00F39F44 /* CurrencyTableViewCell.swift */; };
 		91233B032A88397E00F39F44 /* CurrencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91233B012A88397E00F39F44 /* CurrencyTableViewCell.xib */; };
+		91AEFBD32A955BD6004AE25C /* SFProDisplay-Ultralight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBC12A955BD6004AE25C /* SFProDisplay-Ultralight.ttf */; };
+		91AEFBD42A955BD6004AE25C /* SFProDisplay-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBC22A955BD6004AE25C /* SFProDisplay-RegularItalic.ttf */; };
+		91AEFBD52A955BD6004AE25C /* SFProDisplay-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBC32A955BD6004AE25C /* SFProDisplay-SemiboldItalic.ttf */; };
+		91AEFBD62A955BD6004AE25C /* SFProDisplay-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBC42A955BD6004AE25C /* SFProDisplay-BoldItalic.ttf */; };
+		91AEFBD72A955BD6004AE25C /* SFProDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBC52A955BD6004AE25C /* SFProDisplay-Medium.ttf */; };
+		91AEFBD82A955BD6004AE25C /* SFProDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBC62A955BD6004AE25C /* SFProDisplay-Black.ttf */; };
+		91AEFBD92A955BD6004AE25C /* SFProDisplay-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBC72A955BD6004AE25C /* SFProDisplay-ThinItalic.ttf */; };
+		91AEFBDA2A955BD6004AE25C /* SFProDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBC82A955BD6004AE25C /* SFProDisplay-Light.ttf */; };
+		91AEFBDB2A955BD6004AE25C /* SFProDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBC92A955BD6004AE25C /* SFProDisplay-Regular.ttf */; };
+		91AEFBDC2A955BD6004AE25C /* SFProDisplay-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBCA2A955BD6004AE25C /* SFProDisplay-BlackItalic.ttf */; };
+		91AEFBDD2A955BD6004AE25C /* SFProDisplay-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBCB2A955BD6004AE25C /* SFProDisplay-MediumItalic.ttf */; };
+		91AEFBDE2A955BD6004AE25C /* SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBCC2A955BD6004AE25C /* SFProDisplay-Bold.ttf */; };
+		91AEFBDF2A955BD6004AE25C /* SFProDisplay-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBCD2A955BD6004AE25C /* SFProDisplay-HeavyItalic.ttf */; };
+		91AEFBE02A955BD6004AE25C /* SFProDisplay-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBCE2A955BD6004AE25C /* SFProDisplay-Semibold.ttf */; };
+		91AEFBE12A955BD6004AE25C /* SFProDisplay-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBCF2A955BD6004AE25C /* SFProDisplay-Heavy.ttf */; };
+		91AEFBE22A955BD6004AE25C /* SFProDisplay-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBD02A955BD6004AE25C /* SFProDisplay-LightItalic.ttf */; };
+		91AEFBE32A955BD6004AE25C /* SFProDisplay-UltralightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBD12A955BD6004AE25C /* SFProDisplay-UltralightItalic.ttf */; };
+		91AEFBE42A955BD6004AE25C /* SFProDisplay-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91AEFBD22A955BD6004AE25C /* SFProDisplay-Thin.ttf */; };
+		91AEFBE72A956A6B004AE25C /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AEFBE62A956A6B004AE25C /* UIImageExtension.swift */; };
+		91EEB96B2A99E4FC003640BB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EEB9692A99E4FC003640BB /* SettingsViewController.swift */; };
+		91EEB96C2A99E4FC003640BB /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91EEB96A2A99E4FC003640BB /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21C758C7C648A85F40A0BCED /* Pods-Fin_dex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fin_dex.release.xcconfig"; path = "Target Support Files/Pods-Fin_dex/Pods-Fin_dex.release.xcconfig"; sourceTree = "<group>"; };
+		2F982F72B5951EA13D195FFF /* Pods_Fin_dex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fin_dex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		315B314988C6DFF143D3B0D7 /* Pods-Fin_dex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fin_dex.debug.xcconfig"; path = "Target Support Files/Pods-Fin_dex/Pods-Fin_dex.debug.xcconfig"; sourceTree = "<group>"; };
 		91233AD32A87B79500F39F44 /* Fin_dex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fin_dex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91233AD62A87B79500F39F44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91233AD82A87B79500F39F44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +65,27 @@
 		91233AFE2A87E36400F39F44 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		91233B002A88397E00F39F44 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
 		91233B012A88397E00F39F44 /* CurrencyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyTableViewCell.xib; sourceTree = "<group>"; };
+		91AEFBC12A955BD6004AE25C /* SFProDisplay-Ultralight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Ultralight.ttf"; sourceTree = "<group>"; };
+		91AEFBC22A955BD6004AE25C /* SFProDisplay-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-RegularItalic.ttf"; sourceTree = "<group>"; };
+		91AEFBC32A955BD6004AE25C /* SFProDisplay-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		91AEFBC42A955BD6004AE25C /* SFProDisplay-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-BoldItalic.ttf"; sourceTree = "<group>"; };
+		91AEFBC52A955BD6004AE25C /* SFProDisplay-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		91AEFBC62A955BD6004AE25C /* SFProDisplay-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Black.ttf"; sourceTree = "<group>"; };
+		91AEFBC72A955BD6004AE25C /* SFProDisplay-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-ThinItalic.ttf"; sourceTree = "<group>"; };
+		91AEFBC82A955BD6004AE25C /* SFProDisplay-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Light.ttf"; sourceTree = "<group>"; };
+		91AEFBC92A955BD6004AE25C /* SFProDisplay-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		91AEFBCA2A955BD6004AE25C /* SFProDisplay-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-BlackItalic.ttf"; sourceTree = "<group>"; };
+		91AEFBCB2A955BD6004AE25C /* SFProDisplay-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-MediumItalic.ttf"; sourceTree = "<group>"; };
+		91AEFBCC2A955BD6004AE25C /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		91AEFBCD2A955BD6004AE25C /* SFProDisplay-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		91AEFBCE2A955BD6004AE25C /* SFProDisplay-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Semibold.ttf"; sourceTree = "<group>"; };
+		91AEFBCF2A955BD6004AE25C /* SFProDisplay-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Heavy.ttf"; sourceTree = "<group>"; };
+		91AEFBD02A955BD6004AE25C /* SFProDisplay-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-LightItalic.ttf"; sourceTree = "<group>"; };
+		91AEFBD12A955BD6004AE25C /* SFProDisplay-UltralightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-UltralightItalic.ttf"; sourceTree = "<group>"; };
+		91AEFBD22A955BD6004AE25C /* SFProDisplay-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Thin.ttf"; sourceTree = "<group>"; };
+		91AEFBE62A956A6B004AE25C /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		91EEB9692A99E4FC003640BB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		91EEB96A2A99E4FC003640BB /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +93,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491DF7B124382D249B7590E7 /* Pods_Fin_dex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		488F0437BC98EE450499120E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				315B314988C6DFF143D3B0D7 /* Pods-Fin_dex.debug.xcconfig */,
+				21C758C7C648A85F40A0BCED /* Pods-Fin_dex.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		91233ACA2A87B79500F39F44 = {
 			isa = PBXGroup;
 			children = (
 				91233AD52A87B79500F39F44 /* Fin_dex */,
+				91233AED2A87BE7800F39F44 /* Utilities */,
 				91233AD42A87B79500F39F44 /* Products */,
+				488F0437BC98EE450499120E /* Pods */,
+				D23263B749D58222F9FFE332 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,17 +131,16 @@
 		91233AD52A87B79500F39F44 /* Fin_dex */ = {
 			isa = PBXGroup;
 			children = (
-				91233AFD2A87E35300F39F44 /* Extensions */,
-				91233AF52A87D1B900F39F44 /* Helper */,
+				91233AE42A87B79600F39F44 /* Info.plist */,
 				91233AEE2A87CBF000F39F44 /* ViewControllers */,
-				91233AED2A87BE7800F39F44 /* Utilities */,
 				91233AEA2A87BC1000F39F44 /* BaseTabbarController */,
 				91233AD62A87B79500F39F44 /* AppDelegate.swift */,
 				91233AD82A87B79500F39F44 /* SceneDelegate.swift */,
 				91233ADC2A87B79500F39F44 /* Main.storyboard */,
-				91233ADF2A87B79600F39F44 /* Assets.xcassets */,
 				91233AE12A87B79600F39F44 /* LaunchScreen.storyboard */,
-				91233AE42A87B79600F39F44 /* Info.plist */,
+				91233AFD2A87E35300F39F44 /* Extensions */,
+				91233AF52A87D1B900F39F44 /* Helper */,
+				91AEFBE52A955BDB004AE25C /* Resources */,
 			);
 			path = Fin_dex;
 			sourceTree = "<group>";
@@ -104,10 +162,12 @@
 		91233AEE2A87CBF000F39F44 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				91EEB96D2A99E507003640BB /* Views */,
 				91233AF82A87D1E800F39F44 /* ReusableCells */,
 				91233AEF2A87CC1000F39F44 /* PortfolioViewController.swift */,
 				91233AF12A87CC7100F39F44 /* TradeViewController.swift */,
 				91233AF32A87CC8000F39F44 /* ProfileViewController.swift */,
+				91EEB9692A99E4FC003640BB /* SettingsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -135,8 +195,59 @@
 			isa = PBXGroup;
 			children = (
 				91233AFE2A87E36400F39F44 /* Extensions.swift */,
+				91AEFBE62A956A6B004AE25C /* UIImageExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		91AEFBC02A955BD6004AE25C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				91AEFBC12A955BD6004AE25C /* SFProDisplay-Ultralight.ttf */,
+				91AEFBC22A955BD6004AE25C /* SFProDisplay-RegularItalic.ttf */,
+				91AEFBC32A955BD6004AE25C /* SFProDisplay-SemiboldItalic.ttf */,
+				91AEFBC42A955BD6004AE25C /* SFProDisplay-BoldItalic.ttf */,
+				91AEFBC52A955BD6004AE25C /* SFProDisplay-Medium.ttf */,
+				91AEFBC62A955BD6004AE25C /* SFProDisplay-Black.ttf */,
+				91AEFBC72A955BD6004AE25C /* SFProDisplay-ThinItalic.ttf */,
+				91AEFBC82A955BD6004AE25C /* SFProDisplay-Light.ttf */,
+				91AEFBC92A955BD6004AE25C /* SFProDisplay-Regular.ttf */,
+				91AEFBCA2A955BD6004AE25C /* SFProDisplay-BlackItalic.ttf */,
+				91AEFBCB2A955BD6004AE25C /* SFProDisplay-MediumItalic.ttf */,
+				91AEFBCC2A955BD6004AE25C /* SFProDisplay-Bold.ttf */,
+				91AEFBCD2A955BD6004AE25C /* SFProDisplay-HeavyItalic.ttf */,
+				91AEFBCE2A955BD6004AE25C /* SFProDisplay-Semibold.ttf */,
+				91AEFBCF2A955BD6004AE25C /* SFProDisplay-Heavy.ttf */,
+				91AEFBD02A955BD6004AE25C /* SFProDisplay-LightItalic.ttf */,
+				91AEFBD12A955BD6004AE25C /* SFProDisplay-UltralightItalic.ttf */,
+				91AEFBD22A955BD6004AE25C /* SFProDisplay-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		91AEFBE52A955BDB004AE25C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				91233ADF2A87B79600F39F44 /* Assets.xcassets */,
+				91AEFBC02A955BD6004AE25C /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		91EEB96D2A99E507003640BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91EEB96A2A99E4FC003640BB /* SettingsViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D23263B749D58222F9FFE332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F982F72B5951EA13D195FFF /* Pods_Fin_dex.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91233AE72A87B79600F39F44 /* Build configuration list for PBXNativeTarget "Fin_dex" */;
 			buildPhases = (
+				2B6827D5D068ECE6902C692F /* [CP] Check Pods Manifest.lock */,
 				91233ACF2A87B79500F39F44 /* Sources */,
 				91233AD02A87B79500F39F44 /* Frameworks */,
 				91233AD12A87B79500F39F44 /* Resources */,
+				6FD0B72AC6B930CDD9BC372A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,15 +310,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91AEFBE12A955BD6004AE25C /* SFProDisplay-Heavy.ttf in Resources */,
 				91233AE32A87B79600F39F44 /* LaunchScreen.storyboard in Resources */,
+				91AEFBD92A955BD6004AE25C /* SFProDisplay-ThinItalic.ttf in Resources */,
+				91AEFBE42A955BD6004AE25C /* SFProDisplay-Thin.ttf in Resources */,
+				91AEFBD42A955BD6004AE25C /* SFProDisplay-RegularItalic.ttf in Resources */,
+				91AEFBE02A955BD6004AE25C /* SFProDisplay-Semibold.ttf in Resources */,
+				91AEFBDB2A955BD6004AE25C /* SFProDisplay-Regular.ttf in Resources */,
+				91AEFBE32A955BD6004AE25C /* SFProDisplay-UltralightItalic.ttf in Resources */,
+				91AEFBD82A955BD6004AE25C /* SFProDisplay-Black.ttf in Resources */,
+				91AEFBD62A955BD6004AE25C /* SFProDisplay-BoldItalic.ttf in Resources */,
+				91AEFBDC2A955BD6004AE25C /* SFProDisplay-BlackItalic.ttf in Resources */,
+				91AEFBDA2A955BD6004AE25C /* SFProDisplay-Light.ttf in Resources */,
 				91233B032A88397E00F39F44 /* CurrencyTableViewCell.xib in Resources */,
 				91233AE02A87B79600F39F44 /* Assets.xcassets in Resources */,
+				91AEFBDF2A955BD6004AE25C /* SFProDisplay-HeavyItalic.ttf in Resources */,
 				91233AFC2A87D21600F39F44 /* AccountCollectionViewCell.xib in Resources */,
+				91AEFBD52A955BD6004AE25C /* SFProDisplay-SemiboldItalic.ttf in Resources */,
+				91AEFBD32A955BD6004AE25C /* SFProDisplay-Ultralight.ttf in Resources */,
+				91AEFBDD2A955BD6004AE25C /* SFProDisplay-MediumItalic.ttf in Resources */,
+				91EEB96C2A99E4FC003640BB /* SettingsViewController.xib in Resources */,
 				91233ADE2A87B79500F39F44 /* Main.storyboard in Resources */,
+				91AEFBE22A955BD6004AE25C /* SFProDisplay-LightItalic.ttf in Resources */,
+				91AEFBD72A955BD6004AE25C /* SFProDisplay-Medium.ttf in Resources */,
+				91AEFBDE2A955BD6004AE25C /* SFProDisplay-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B6827D5D068ECE6902C692F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fin_dex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FD0B72AC6B930CDD9BC372A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fin_dex/Pods-Fin_dex-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fin_dex/Pods-Fin_dex-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fin_dex/Pods-Fin_dex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		91233ACF2A87B79500F39F44 /* Sources */ = {
@@ -214,7 +388,9 @@
 			files = (
 				91233AD72A87B79500F39F44 /* AppDelegate.swift in Sources */,
 				91233AF72A87D1C600F39F44 /* CellHelper.swift in Sources */,
+				91EEB96B2A99E4FC003640BB /* SettingsViewController.swift in Sources */,
 				91233AF02A87CC1000F39F44 /* PortfolioViewController.swift in Sources */,
+				91AEFBE72A956A6B004AE25C /* UIImageExtension.swift in Sources */,
 				91233AFF2A87E36400F39F44 /* Extensions.swift in Sources */,
 				91233AF42A87CC8000F39F44 /* ProfileViewController.swift in Sources */,
 				91233AD92A87B79500F39F44 /* SceneDelegate.swift in Sources */,
@@ -362,6 +538,7 @@
 		};
 		91233AE82A87B79600F39F44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 315B314988C6DFF143D3B0D7 /* Pods-Fin_dex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -384,14 +561,18 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BedriDogan.Fin-dex";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		91233AE92A87B79600F39F44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C758C7C648A85F40A0BCED /* Pods-Fin_dex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -414,9 +595,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BedriDogan.Fin-dex";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

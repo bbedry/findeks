@@ -28,11 +28,12 @@ class AccountCollectionViewCell: UICollectionViewCell, NibLoadableView, Reusable
         
         DispatchQueue.main.async {
             self.containerView.addGradientBackground(firstColor: .purple, secondColor: .blue)
+        
             }
         
         containerView.layer.cornerRadius = 10
         containerView.clipsToBounds = false
-        
+       
         depositBgView.layer.cornerRadius = 4
         depositBgView.layer.masksToBounds = true
         depositBgView.backgroundColor = UIColor(white: 1, alpha: 0.5)
@@ -40,7 +41,7 @@ class AccountCollectionViewCell: UICollectionViewCell, NibLoadableView, Reusable
         withdrawBgView.layer.cornerRadius = 4
         withdrawBgView.layer.masksToBounds = true
         withdrawBgView.backgroundColor = UIColor(white: 1, alpha: 0.5)
-        
+    
         
     }
 

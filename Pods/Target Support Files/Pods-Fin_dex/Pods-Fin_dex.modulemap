@@ -1,0 +1,6 @@
+framework module Pods_Fin_dex {
+  umbrella header "Pods-Fin_dex-umbrella.h"
+
+  export *
+  module * { export * }
+}

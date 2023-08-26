@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.7.1)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - Kingfisher (6.3.1)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - Charts
+  - Kingfisher
+  - SwiftMessages
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - Kingfisher
+    - SwiftMessages
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  Charts: 888b39ae772b3dc79d0a0e659f0419ff9bd3e963
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+
+PODFILE CHECKSUM: dc83d7c1522ade76edeaea2029602def91c62d69
+
+COCOAPODS: 1.12.1

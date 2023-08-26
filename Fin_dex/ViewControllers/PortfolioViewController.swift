@@ -9,6 +9,7 @@ import UIKit
 
 class PortfolioViewController: UIViewController {
 
+    @IBOutlet weak var settingsButton: UIButton!
     @IBOutlet weak var currencyTableView: UITableView!
     @IBOutlet weak var accountsCollectionViews: UICollectionView!
     
@@ -16,6 +17,13 @@ class PortfolioViewController: UIViewController {
         super.viewDidLoad()
         
         self.initializeDelegates()
+    }
+    @IBAction func tappedSettingsButton(_ sender: UIButton) {
+        let vc = SettingsViewController()
+        navigationController?.pushViewController(vc, animated: true)
+        
+       
+        
     }
     
     func initializeDelegates() {
@@ -32,12 +40,14 @@ class PortfolioViewController: UIViewController {
 
 extension PortfolioViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return 5
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: CurrencyTableViewCell.self), for: indexPath) as? CurrencyTableViewCell else { return UITableViewCell()}
-        
+        if indexPath.row == 0 {
+            cell.topView.isHidden = true
+        }
         return cell
     }
     
