@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFProDisplay-Regular.ttf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ConvertCurrencyCollectionCell" customModule="Fin_dex" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="60" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="60" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="21Q-o1-ush">
+                        <rect key="frame" x="0.0" y="0.0" width="60" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="BTC-&gt;EUR" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35W-eF-V74">
+                                <rect key="frame" x="0.0" y="8" width="60" height="25"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1K8-Q1-1dA">
+                                <rect key="frame" x="0.0" y="41" width="60" height="1"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="6cX-SN-Ucm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="35W-eF-V74" secondAttribute="trailing" id="NA4-ht-AL9"/>
+                            <constraint firstItem="35W-eF-V74" firstAttribute="trailing" secondItem="1K8-Q1-1dA" secondAttribute="trailing" id="Uw8-WW-GkG"/>
+                            <constraint firstItem="35W-eF-V74" firstAttribute="top" secondItem="21Q-o1-ush" secondAttribute="top" constant="8" id="ave-9v-pcF"/>
+                            <constraint firstItem="35W-eF-V74" firstAttribute="leading" secondItem="21Q-o1-ush" secondAttribute="leading" id="bud-wG-z6o"/>
+                            <constraint firstAttribute="bottom" secondItem="1K8-Q1-1dA" secondAttribute="bottom" constant="8" id="iBl-Mr-sLe"/>
+                            <constraint firstItem="1K8-Q1-1dA" firstAttribute="leading" secondItem="35W-eF-V74" secondAttribute="leading" id="ttR-pG-ZiD"/>
+                            <constraint firstItem="1K8-Q1-1dA" firstAttribute="top" secondItem="35W-eF-V74" secondAttribute="bottom" constant="8" id="xaa-iB-xJB"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="21Q-o1-ush" secondAttribute="trailing" id="Brl-ti-xDf"/>
+                <constraint firstAttribute="bottom" secondItem="21Q-o1-ush" secondAttribute="bottom" id="GHA-ac-fhi"/>
+                <constraint firstItem="21Q-o1-ush" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ScT-lJ-nzv"/>
+                <constraint firstItem="21Q-o1-ush" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="nLW-Iq-cAi"/>
+            </constraints>
+            <size key="customSize" width="60" height="50"/>
+            <connections>
+                <outlet property="bottomView" destination="1K8-Q1-1dA" id="80O-J9-yH5"/>
+                <outlet property="firstCurrencyLabel" destination="35W-eF-V74" id="TEb-So-ZrU"/>
+            </connections>
+            <point key="canvasLocation" x="119.08396946564885" y="-11.267605633802818"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
