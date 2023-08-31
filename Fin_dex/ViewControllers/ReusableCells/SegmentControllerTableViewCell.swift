@@ -25,9 +25,9 @@ class SegmentControllerTableViewCell: UITableViewCell, ReusableView, NibLoadable
     }
     private func setupUI() {
     
-        segmentController.selectedSegmentTintColor = UIColor(red: <#T##CGFloat#>, green: <#T##CGFloat#>, blue: <#T##CGFloat#>, alpha: <#T##CGFloat#>)
-        segmentController.tintColor = AppColors.primaryLight
-        segmentController.setTitleTextAttributes([.foregroundColor: AppColors.primaryDark,
+        segmentController.selectedSegmentTintColor = UIColor(red: 23, green: 23, blue: 26, alpha: 1)
+        segmentController.tintColor = UIColor.init(red: 244.0/255.0, green: 244.0/255.0, blue: 244.0/255.0, alpha: 1.0)
+        segmentController.setTitleTextAttributes([.foregroundColor: UIColor(red: 185, green: 193, blue: 217, alpha: 1),
                                                   NSAttributedString.Key.font: AppFonts.SfProDisplayMedium12 ?? ""], for: .normal)
         
     }

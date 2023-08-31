@@ -13,11 +13,22 @@ class PortfolioViewController: UIViewController {
     @IBOutlet weak var currencyTableView: UITableView!
     @IBOutlet weak var accountsCollectionViews: UICollectionView!
     
+    var airDropVM = AirDropViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.initializeDelegates()
+        fetchAirDrop()
     }
+    
+    private func fetchAirDrop() {
+        airDropVM.requestAirDropCoin(id: "60e59b99c8ca1d58514a2322")
+        airDropVM.didSuccess = {
+            print("başarılı")
+        }
+    }
+    
     @IBAction func tappedSettingsButton(_ sender: UIButton) {
         let vc = SettingsViewController()
         navigationController?.pushViewController(vc, animated: true)
