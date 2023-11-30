@@ -2,8 +2,10 @@
 //  ResponseObjectModel.swift
 //  Fin_dex
 //
-//  Created by Bedri Doğan on 31.08.2023.
+//  Created by Bedri Doğan on 30.11.2023.
 //
+
+import Foundation
 
 class ResponseObjectModel<T: Codable>: BaseResponseModel {
     

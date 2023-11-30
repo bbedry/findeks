@@ -17,118 +17,7 @@
             startingLineNumber = "28"
             endingLineNumber = "28"
             landmarkName = "requestAirDropCoin(id:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CD3CB861-AA68-479A-9881-3BB657038BA9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Fin_dex/ViewControllers/PortfolioViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "viewDidLoad()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "CD3CB861-AA68-479A-9881-3BB657038BA9 - 65f5244e62d462cb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Fin_dex.PortfolioViewController.tappedSettingsButton(__C.UIButton) -&gt; ()"
-                  moduleName = "Fin_dex"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Fin_dex/Fin_dex/ViewControllers/PortfolioViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "44">
-               </Location>
-               <Location
-                  uuid = "CD3CB861-AA68-479A-9881-3BB657038BA9 - 164cb880a4d85816"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Fin_dex.PortfolioViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "Fin_dex"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Fin_dex/Fin_dex/ViewControllers/PortfolioViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "120">
-               </Location>
-               <Location
-                  uuid = "CD3CB861-AA68-479A-9881-3BB657038BA9 - 164cb880a4d85877"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Fin_dex.PortfolioViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "Fin_dex"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Fin_dex/Fin_dex/ViewControllers/PortfolioViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "108">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C69E88C7-D623-41AE-ACE4-E93D6C6E2E7A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Fin_dex/ViewControllers/PortfolioViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "fetchAirDrop()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C69E88C7-D623-41AE-ACE4-E93D6C6E2E7A - 65f5244e62d4632e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Fin_dex.PortfolioViewController.tappedSettingsButton(__C.UIButton) -&gt; ()"
-                  moduleName = "Fin_dex"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Fin_dex/Fin_dex/ViewControllers/PortfolioViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "196">
-               </Location>
-               <Location
-                  uuid = "C69E88C7-D623-41AE-ACE4-E93D6C6E2E7A - 2b7172f230040022"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Fin_dex.PortfolioViewController.fetchAirDrop() -&gt; ()"
-                  moduleName = "Fin_dex"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Fin_dex/Fin_dex/ViewControllers/PortfolioViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "32">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -144,7 +33,7 @@
             startingLineNumber = "25"
             endingLineNumber = "25"
             landmarkName = "requestAirDropCoin(id:)"
-            landmarkType = "9">
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "3C9406F3-D9C1-4DB3-BA4B-5FC381A56755 - c54b36dd02bd7fb"
@@ -176,6 +65,36 @@
                   endingLineNumber = "25"
                   offsetFromSymbolStart = "64">
                </Location>
+               <Location
+                  uuid = "3C9406F3-D9C1-4DB3-BA4B-5FC381A56755 - aa321b6061ea9230"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fin_dex.AirDropViewModel.requestAirDropCoin(id: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/ViewModels/AirDropViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "3C9406F3-D9C1-4DB3-BA4B-5FC381A56755 - f8d566a2e51784a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Fin_dex.ResponseObjectModel&lt;Fin_dex.AllCoinMarketModel&gt;&gt;) -&gt; () in Fin_dex.AirDropViewModel.requestAirDropCoin(id: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/ViewModels/AirDropViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "64">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -192,7 +111,7 @@
             startingLineNumber = "26"
             endingLineNumber = "26"
             landmarkName = "requestAirDropCoin(id:)"
-            landmarkType = "9">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -265,6 +184,51 @@
                   moduleName = "Fin_dex"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Fin_dex/Fin_dex/Network/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "548">
+               </Location>
+               <Location
+                  uuid = "ABF9548D-6178-4241-941A-A86B1CAB84C0 - 71b1338ec03708aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in static Fin_dex.RequestManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(_: Fin_dex.RequestDelegate, success: (Swift.Optional&lt;Fin_dex.ResponseObjectModel&lt;&#x3c4;_0_0&gt;&gt;) -&gt; (), failure: (Fin_dex.ErrorResponseModel) -&gt; ()) -&gt; ()"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  uuid = "ABF9548D-6178-4241-941A-A86B1CAB84C0 - 71b1338ec03708aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in static Fin_dex.RequestManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(_: Fin_dex.RequestDelegate, success: (Swift.Optional&lt;Fin_dex.ResponseObjectModel&lt;&#x3c4;_0_0&gt;&gt;) -&gt; (), failure: (Fin_dex.ErrorResponseModel) -&gt; ()) -&gt; ()"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "ABF9548D-6178-4241-941A-A86B1CAB84C0 - 71b1338ec03708aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in static Fin_dex.RequestManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(_: Fin_dex.RequestDelegate, success: (Swift.Optional&lt;Fin_dex.ResponseObjectModel&lt;&#x3c4;_0_0&gt;&gt;) -&gt; (), failure: (Fin_dex.ErrorResponseModel) -&gt; ()) -&gt; ()"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Core/RequestManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "47"
@@ -352,6 +316,402 @@
             endingLineNumber = "88"
             landmarkName = "handleFailure(response:failure:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9931D669-39B3-4CB9-A444-5A0286BD5019"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fin_dex/ViewModels/AllCurrenciesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "requestAllCurrencies()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9931D669-39B3-4CB9-A444-5A0286BD5019 - fac44c16e6613025"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fin_dex.AllCurrenciesViewModel.requestAllCurrencies() -&gt; ()"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/ViewModels/AllCurrenciesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "9931D669-39B3-4CB9-A444-5A0286BD5019 - f4f63e6969257657"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Fin_dex.ResponseObjectModel&lt;Fin_dex.CurrenciesModel&gt;&gt;) -&gt; () in Fin_dex.AllCurrenciesViewModel.requestAllCurrencies() -&gt; ()"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/ViewModels/AllCurrenciesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "128C4978-D049-4DD1-9D12-9C18AFAFCFDB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fin_dex/ViewModels/AllCurrenciesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "requestAllCurrencies()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A13EF846-DBB0-4A66-AC7B-01763B37F7D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fin_dex/ViewModels/AllCurrenciesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "requestAllCurrencies()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17872A72-DEA4-4167-B514-A2D3D26D960F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fin_dex/Network/Models/Core/RequestManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "createRequest(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "17872A72-DEA4-4167-B514-A2D3D26D960F - 3035ea717addb0b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Fin_dex.RequestManager.createRequest(Fin_dex.RequestDelegate) -&gt; Alamofire.DataRequest"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Models/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "680">
+               </Location>
+               <Location
+                  uuid = "17872A72-DEA4-4167-B514-A2D3D26D960F - 3035ea717addb0b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Fin_dex.RequestManager.createRequest(Fin_dex.RequestDelegate) -&gt; Alamofire.DataRequest"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Models/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1428">
+               </Location>
+               <Location
+                  uuid = "17872A72-DEA4-4167-B514-A2D3D26D960F - 3035ea717addb0b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Fin_dex.RequestManager.createRequest(Fin_dex.RequestDelegate) -&gt; Alamofire.DataRequest"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Models/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "688">
+               </Location>
+               <Location
+                  uuid = "17872A72-DEA4-4167-B514-A2D3D26D960F - 3035ea717addb0b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Fin_dex.RequestManager.createRequest(Fin_dex.RequestDelegate) -&gt; Alamofire.DataRequest"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Models/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1436">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65E30E32-0D09-4163-9F33-E3DEAB5F7AC6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fin_dex/Network/Models/Core/RequestManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "createRequest(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "65E30E32-0D09-4163-9F33-E3DEAB5F7AC6 - 3035ea717addb030"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Fin_dex.RequestManager.createRequest(Fin_dex.RequestDelegate) -&gt; Alamofire.DataRequest"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Models/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "2888">
+               </Location>
+               <Location
+                  uuid = "65E30E32-0D09-4163-9F33-E3DEAB5F7AC6 - 3035ea717addb030"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Fin_dex.RequestManager.createRequest(Fin_dex.RequestDelegate) -&gt; Alamofire.DataRequest"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Models/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "2916">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C868366-8BB5-4C63-AAA9-03ADA5A8FCAC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fin_dex/Network/Models/Core/RequestManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "createRequest(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0C868366-8BB5-4C63-AAA9-03ADA5A8FCAC - 21de86de64091fe9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in static Fin_dex.RequestManager.createRequest(Fin_dex.RequestDelegate) -&gt; Alamofire.DataRequest"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Models/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "0C868366-8BB5-4C63-AAA9-03ADA5A8FCAC - 21de86de64091fe9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in static Fin_dex.RequestManager.createRequest(Fin_dex.RequestDelegate) -&gt; Alamofire.DataRequest"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Models/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "0C868366-8BB5-4C63-AAA9-03ADA5A8FCAC - 3035ea717addb1ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Fin_dex.RequestManager.createRequest(Fin_dex.RequestDelegate) -&gt; Alamofire.DataRequest"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Models/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "3264">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5759E50E-52B2-4867-928E-4260EDDFF7FB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fin_dex/Network/Models/Core/RequestManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "request(_:success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5759E50E-52B2-4867-928E-4260EDDFF7FB - d806b6884130ba99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in static Fin_dex.RequestManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(_: Fin_dex.RequestDelegate, success: (Swift.Optional&lt;Fin_dex.ResponseObjectModel&lt;&#x3c4;_0_0&gt;&gt;) -&gt; (), failure: (Fin_dex.ErrorResponseModel) -&gt; ()) -&gt; ()"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Models/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "332">
+               </Location>
+               <Location
+                  uuid = "5759E50E-52B2-4867-928E-4260EDDFF7FB - d806b6884130ba99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in static Fin_dex.RequestManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(_: Fin_dex.RequestDelegate, success: (Swift.Optional&lt;Fin_dex.ResponseObjectModel&lt;&#x3c4;_0_0&gt;&gt;) -&gt; (), failure: (Fin_dex.ErrorResponseModel) -&gt; ()) -&gt; ()"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Models/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "5759E50E-52B2-4867-928E-4260EDDFF7FB - d806b6884130ba99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in static Fin_dex.RequestManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(_: Fin_dex.RequestDelegate, success: (Swift.Optional&lt;Fin_dex.ResponseObjectModel&lt;&#x3c4;_0_0&gt;&gt;) -&gt; (), failure: (Fin_dex.ErrorResponseModel) -&gt; ()) -&gt; ()"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Models/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "548">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D5DB785-50B8-4413-ABA0-18715B923283"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fin_dex/Network/Models/Core/RequestManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "request(_:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30BDE3DA-876E-4B05-8650-488C2A17F95F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fin_dex/Network/Models/Core/RequestManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "createRequest(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "30BDE3DA-876E-4B05-8650-488C2A17F95F - 3035ea717addb1ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Fin_dex.RequestManager.createRequest(Fin_dex.RequestDelegate) -&gt; Alamofire.DataRequest"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Models/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "3276">
+               </Location>
+               <Location
+                  uuid = "30BDE3DA-876E-4B05-8650-488C2A17F95F - 21de86de64091fab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) -&gt; () in static Fin_dex.RequestManager.createRequest(Fin_dex.RequestDelegate) -&gt; Alamofire.DataRequest"
+                  moduleName = "Fin_dex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bedridogan/Desktop/Angela-iOS%20Bootcamp/Findeks/Fin_dex/Network/Models/Core/RequestManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

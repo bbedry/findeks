@@ -13,19 +13,26 @@ class PortfolioViewController: UIViewController {
     @IBOutlet weak var currencyTableView: UITableView!
     @IBOutlet weak var accountsCollectionViews: UICollectionView!
     
-    var airDropVM = AirDropViewModel()
+   
+    var currenciesVM = AllCurrenciesViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.initializeDelegates()
-        fetchAirDrop()
+      
     }
     
-    private func fetchAirDrop() {
-        airDropVM.requestAirDropCoin(id: "60e59b99c8ca1d58514a2322")
-        airDropVM.didSuccess = {
-            print("başarılı")
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        fetchLastestCurrencies()
+    }
+    
+    private func fetchLastestCurrencies() {
+        currenciesVM.requestAllCurrencies()
+        currenciesVM.didSuccess = {
+            print("success")
         }
     }
     
