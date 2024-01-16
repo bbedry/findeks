@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PortfolioViewController: UIViewController {
+class PortfolioViewController: UIViewController, LoadingShowable {
 
     @IBOutlet weak var settingsButton: UIButton!
     @IBOutlet weak var currencyTableView: UITableView!
@@ -18,7 +18,7 @@ class PortfolioViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.showLoading()
         self.initializeDelegates()
       
     }
@@ -29,11 +29,18 @@ class PortfolioViewController: UIViewController {
         fetchLastestCurrencies()
     }
     
+    
     private func fetchLastestCurrencies() {
-        currenciesVM.requestAllCurrencies()
-        currenciesVM.didSuccess = {
-            print("success")
+        DispatchQueue.main.async {
+            
+            self.currenciesVM.requestAllCurrencies()
+            self.currenciesVM.didSuccess = {
+                print("success")
+                self.currencyTableView.reloadData()
+                self.hideLoading()
+            }
         }
+        
     }
     
     @IBAction func tappedSettingsButton(_ sender: UIButton) {
@@ -45,20 +52,22 @@ class PortfolioViewController: UIViewController {
     }
     
     func initializeDelegates() {
+        currencyTableView.delegate = self
+        currencyTableView.dataSource = self
+        currencyTableView.register(CurrencyTableViewCell.self)
+        
         accountsCollectionViews.delegate = self
         accountsCollectionViews.dataSource = self
         accountsCollectionViews.register(AccountCollectionViewCell.self)
         
-        currencyTableView.delegate = self
-        currencyTableView.dataSource = self
-        currencyTableView.register(CurrencyTableViewCell.self)
+      
     }
 }
 
 
 extension PortfolioViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return currenciesVM.currencyCount() ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -66,6 +75,9 @@ extension PortfolioViewController: UITableViewDelegate, UITableViewDataSource {
         if indexPath.row == 0 {
             cell.topView.isHidden = true
         }
+        let model = currenciesVM.getCurrenciesItem(index: indexPath.row)
+        cell.currenciesData = model
+        
         return cell
     }
     

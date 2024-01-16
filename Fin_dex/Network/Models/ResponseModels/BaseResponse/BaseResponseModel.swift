@@ -9,14 +9,11 @@ import Foundation
 
 class BaseResponseModel: Codable {
     
-    var error: ErrorResponseModel?
-    var success: Bool?
-    var message: String?
-    
+    var status: CurrencyStatus?
+    var data: [CurrencyResponse]?
+
     enum CodingKeys: String, CodingKey {
-        case error
-        case success
-        case message
+        case status
+        case data = "data"
     }
-    
 }

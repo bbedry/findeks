@@ -9,16 +9,22 @@ import Foundation
 
 class ResponseObjectModel<T: Codable>: BaseResponseModel {
     
-    var entity: T?
+    var entity: [T?]
     
     enum CodingKeys: String, CodingKey {
-        case entity
+        case entity = "data"
     }
     
     required init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        entity = try container.decode(T.self, forKey: .entity)
-        try super.init(from: decoder)
+        do {
+            let container = try decoder.container(keyedBy: CodingKeys.self)
+            entity = try container.decode([T].self, forKey: .entity)
+            try super.init(from: decoder)
+        } catch {
+            print("decoding error: \(error)")
+            throw error
+        }
+        
     }
-    
+
 }

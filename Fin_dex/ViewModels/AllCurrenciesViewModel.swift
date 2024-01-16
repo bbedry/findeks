@@ -10,6 +10,8 @@ import Foundation
 
 protocol AllCurrenciesViewModelProtocol {
     func requestAllCurrencies()
+    func currencyCount() -> Int?
+    func getCurrenciesItem(index: Int) -> CurrencyResponse?
 }
 
 
@@ -19,16 +21,28 @@ final class AllCurrenciesViewModel: AllCurrenciesViewModelProtocol {
     public var didSuccess: ()->() = {}
     public var didFailure: (String)->() = {_ in}
     
-    private var currenciesData: CurrenciesModel?
+    private var currenciesData: [CurrencyResponse]?
     
     func requestAllCurrencies() {
-        LastestCurrenciesReques(start: 1, limit: 100).request { [weak self] response in
+        
+        LastestCurrenciesRequest(start: 1, limit: 3, sort: "market_cap", currencyType: "all").request { [weak self] response in
             guard let self = self else { return }
-            self.currenciesData = response?.entity
+            self.currenciesData = response?.data
             self.didSuccess()
+            
         } failure: { (error) in
             self.didFailure(error.message ?? "")
         }
+
+    
+    }
+    
+    func currencyCount() -> Int? {
+        return currenciesData?.count
+    }
+    
+    func getCurrenciesItem(index: Int) -> CurrencyResponse? {
+        return currenciesData?[index]
     }
     
 }

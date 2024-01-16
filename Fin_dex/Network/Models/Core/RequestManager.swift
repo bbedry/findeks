@@ -81,11 +81,11 @@ class RequestManager {
             return
         }
         if let data = response.data, let serviceError = ErrorResponseModel.decode(data) {
-            /*
+            
              if let json = String(data: data, encoding: .utf8) {
              print("Response JSON: \(json)")
              }
-             */
+             
             handleError(statusCode: response.response?.statusCode, localError: nil, serviceError: serviceError, failure: failure)
             print("Error = \(String(describing: response.response?.statusCode))")
         } else if let error = response.error {
